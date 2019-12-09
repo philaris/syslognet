@@ -1,0 +1,14 @@
+Package: syslognet
+Type: Package
+Title: Send log messages to remote syslog server
+Version: 0.1.0.0
+Author: Panagiotis Cheilaris [aut, cre]
+Maintainer: Panagiotis Cheilaris <philaris@gmail.com>
+Description: Send syslog protocol messages to a remote syslog server
+    specified by hostname and network port.
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
+Imports: 
+    utils
