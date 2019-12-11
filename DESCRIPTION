@@ -1,7 +1,7 @@
 Package: syslognet
 Type: Package
 Title: Send log messages to remote syslog server
-Version: 0.1.0.0
+Version: 0.1.0.1
 Author: Panagiotis Cheilaris [aut, cre]
 Maintainer: Panagiotis Cheilaris <philaris@gmail.com>
 Description: Send syslog protocol messages to a remote syslog server
