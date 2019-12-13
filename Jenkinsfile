@@ -13,7 +13,7 @@ pipeline {
         stage('Coverage') {
             steps {
                 echo 'Calculating test coverage ...'
-                sh "Rscript -e 'cr <- devtools::test_coverage(show_report = FALSE)' -e 'print(cr)'"
+                sh "Rscript -e 'print(devtools::test_coverage(show_report = FALSE))'"
             }
         }
     }
