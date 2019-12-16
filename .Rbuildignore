@@ -3,3 +3,4 @@
 ^Jenkinsfile$
 ^\.circleci$
 ^\.travis\.yml$
+^LICENSE\.txt$
